@@ -8,8 +8,8 @@ lance_val = Lance(val,150.0)
 
 leilao = Leilao('celular')
 
-leilao.lances.append(lance_val)
 leilao.lances.append(lance_well)
+leilao.lances.append(lance_val)
 
 for lance in leilao.lances:
     print(f'O usuario {lance.usuario.nome} e deu um lance {lance.valor} ')
